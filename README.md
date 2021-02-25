@@ -1,19 +1,13 @@
-## Simple State Machine
-#### by Scott Kildall
+## RoomsOfYourHouse
+#### by Tyler Wong
 
 
 ### Overview
-This is a template for a simple state machine that goes between five states
+This is a simple state machine that goes between different states using pressed keys, and takes you through a tour of my dream house.
+
+### Technical Details
+
+This uses pressed keys to navigate through the house. The instructions are displayed throughout each room. You are only able to navigate to rooms that are shown in the instructions on each page.
 
 
-### Modifying the Template
 
-(1) Add your own PNG files in the assets folder. Make sure they match the names ***exactly*** of the existing PNGs.
-
-(2) Add custom drawing code to drawOne(), drawTwo(), drawThree(), drawFour(), drawFive()
-
-(3) You can add your own interfaces - keys, mouse events, etc in the Interfaces section
-
-Don't change anything else! 
-
-### How it works
